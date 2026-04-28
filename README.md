@@ -16,8 +16,17 @@ Para extender el sistema base, se implementaron las siguientes clases:
 - **Clase TikTok:** Maneja contenido de formato corto con atributos específicos como música de fondo.
 - **Clases de Soporte (Actor e Investigador):** Permiten la interacción entre el contenido y los colaboradores mediante asociaciones de objetos.
 - **ID Automático:** Sistema de identificación único e incremental gestionado desde la superclase.
+## Instrucciones de Instalación y Uso
 
-##  Instrucciones para Clonar y Ejecutar el Proyecto
+### 1. Requisitos previos
+- Tener instalado **Java JDK 17** o superior.
+- Tener instalado un IDE (recomendado **Eclipse IDE**).
+- Tener instalado **Git** (opcional para clonación).
+
+### 2. Clonación del repositorio
+Abre tu terminal y ejecuta el siguiente comando:
+
+## Ejecutar el Proyecto
 
 Para tener una copia funcional del proyecto en tu máquina local, sigue estos pasos:
 
