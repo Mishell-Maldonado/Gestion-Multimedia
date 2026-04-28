@@ -16,6 +16,7 @@ Para extender el sistema base, se implementaron las siguientes clases:
 - **Clase TikTok:** Maneja contenido de formato corto con atributos específicos como música de fondo.
 - **Clases de Soporte (Actor e Investigador):** Permiten la interacción entre el contenido y los colaboradores mediante asociaciones de objetos.
 - **ID Automático:** Sistema de identificación único e incremental gestionado desde la superclase.
+  
 ## Instrucciones de Instalación y Uso
 
 ### 1. Requisitos previos
