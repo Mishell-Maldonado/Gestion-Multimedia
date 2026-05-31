@@ -9,11 +9,11 @@
 En esta unidad se refactorizó integralmente el sistema base, aplicando principios de diseño de software, código limpio y el patrón arquitectónico MVC:
 
 * **Refactorización y SRP:** Se eliminaron los métodos `mostrarDetalles()` y las salidas directas por consola (`System.out.println`) de las clases del modelo. Ahora la impresión y el formato visual se manejan exclusivamente en la capa de la Vista.
-**Patrón Arquitectónico MVC:** El sistema se segmentó de forma estricta en tres capas independientes: Modelo (datos de negocio), Vista (interfaz de interacción en consola) y Controlador (lógica de orquestación y flujo).
-**Manejo de Archivos (CSV):** Se implementó la persistencia de datos mediante la lectura y escritura desde/hacia el archivo físico `contenidos.csv` utilizando la clase auxiliar `GestorCSV`.
-**Principios SOLID:** * *SRP (Single Responsibility Principle):* Separación clara de responsabilidades en componentes MVC.
-**OCP (Open/Closed Principle):** Modelo de herencia extensible a partir de la clase abstracta `ContenidoAudiovisual`.
-**DIP (Dependency Inversion Principle):** Inyección de dependencias en el constructor del controlador para desacoplarlo de la vista.
+* **Patrón Arquitectónico MVC:** El sistema se segmentó de forma estricta en tres capas independientes: Modelo (datos de negocio), Vista (interfaz de interacción en consola) y Controlador (lógica de orquestación y flujo).
+* **Manejo de Archivos (CSV):** Se implementó la persistencia de datos mediante la lectura y escritura desde/hacia el archivo físico `contenidos.csv` utilizando la clase auxiliar `GestorCSV`.
+* **Principios SOLID:** * *SRP (Single Responsibility Principle):* Separación clara de responsabilidades en componentes MVC.
+* **OCP (Open/Closed Principle):** Modelo de herencia extensible a partir de la clase abstracta `ContenidoAudiovisual`.
+* **DIP (Dependency Inversion Principle):** Inyección de dependencias en el constructor del controlador para desacoplarlo de la vista.
 * **Pruebas Unitarias:** Se diseñó una suite de pruebas automatizadas con JUnit 5 para validar de forma aislada el comportamiento de las clases del modelo y la correcta carga del gestor de archivos.
 
 ##  Estructura del Código
